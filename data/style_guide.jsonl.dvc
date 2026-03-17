@@ -1,0 +1,5 @@
+outs:
+- md5: 7d1bf493389c7ff07a40b7b7e3f6ac92
+  size: 37878
+  hash: md5
+  path: style_guide.jsonl

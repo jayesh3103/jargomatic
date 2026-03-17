@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environment
+.venv/
+venv/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Model & Data
+models/t5_jargon_v1_checkpoints/
+models/**/*.bin
+models/**/*.safetensors
+*.pkl
+*.joblib
+
+# Training artifacts
+training_args.bin
+trainer_state.json
+runs/
+
+# Data versioning (DVC)
+.dvc/config.local
+.dvc/tmp/
+dvc_remote/
+*.dvc.lock
+/dvc_remote/
+
+# MLflow
+mlruns/
+.mlflow/
+mlflow_store/
+mlartifacts/
+
+# Dagster
+.dagster/
+.pytest_cache/
+dagster_test/
+.tmp_dagster_home*
+
+# BentoML
+bentoml_artifacts/
+*.bento/
+bentoml.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env.local
+.env.*.local
+config.local.yaml
+
+# Checkpoints and temporary model saves
+*_checkpoint/
+*_checkpoints/
+*.pt
+*.pth
+model_checkpoints/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Generated files
+*.jsonl.bak
+new_jargon_candidates.txt.bak
+known_jargon.csv.bak
+
+# Coverage
+.coverage
+htmlcov/
+
+# Testing
+.pytest_cache/
+test_results/
+
+# Groq API keys and secrets (NEVER commit)
+.groq_key
+*.key
+secrets.yaml
+.secrets/
+
+# Monitoring/observability
+prometheus_data/
+grafana_storage/

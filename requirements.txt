@@ -1,0 +1,51 @@
+# --- Core Model & Training ---
+transformers==4.57.1
+datasets==4.4.1
+sentence-transformers==5.1.2
+scikit-learn==1.7.2
+sentencepiece==0.2.1
+accelerate==1.11.0
+
+# --- PyTorch (install separately with CUDA) ---
+# Run: pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# --- MLOps Orchestration & Tooling ---
+dagster==1.12.1
+dagster-graphql==1.12.1
+dagster-pipes==1.12.1
+dagster-webserver==1.12.1
+dagster_shared==1.12.1
+antlr4-python3-runtime==4.11.1
+waitress==3.0.2
+uvicorn==0.38.0
+mlflow==3.6.0
+mlflow-skinny==3.6.0
+mlflow-tracing==3.6.0
+bentoml==1.4.28
+evidently==0.7.15
+
+# --- API Clients & Utils ---
+groq==0.33.0
+requests==2.32.5
+pydantic==2.12.4
+pydantic-settings==2.12.0
+python-dotenv==1.2.1
+pyyaml==6.0.3
+
+# --- Frontend & Monitoring ---
+streamlit==1.51.0
+psutil==7.1.3
+
+# --- Supporting Dependencies ---
+huggingface-hub==0.36.0
+safetensors==0.6.2
+tokenizers==0.22.1
+numpy==2.3.4
+pandas==2.3.3
+
+# --- DVC (install AFTER everything else with --no-deps) ---
+# Step 1: pip install -r requirements.txt
+# Step 2: pip install omegaconf==2.3.0 --no-deps
+# Step 3: pip install torch --index-url https://download.pytorch.org/whl/cu118
+# Step 4: pip install dvc==3.63.0 dvc-data==3.16.12 hydra-core==1.3.2 --no-deps
+# Step 5: pip install scmrepo dvc-objects dvc-render dvc-studio-client dvc-task dvc-http configobj flufl.lock grandalf dpath colorama ruamel.yaml tomlkit voluptuous pygtrie pydot shortuuid shtab flatten-dict funcy celery kombu dulwich gto zc.lockfile dictdiffer diskcache sqltrie orjson

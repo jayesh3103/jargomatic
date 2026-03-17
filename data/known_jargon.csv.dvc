@@ -1,0 +1,5 @@
+outs:
+- md5: 210e90c5ce6a0736b5f77642ee7c1b19
+  size: 533
+  hash: md5
+  path: known_jargon.csv
