@@ -1,2 +1,2 @@
 [tool.dagster]
-module_name = "dilbert_dagster"
+module_name = "jargomatic_dagster"

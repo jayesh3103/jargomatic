@@ -44,7 +44,7 @@ The logic is contained in `jargomatic_dagster` and runs through these steps:
 1.  **Clone the repo**
 
     ```bash
-    git clone https://github.com/your-username/jargomatic.git
+    git clone https://github.com/jayesh3103/jargomatic.git
     cd jargomatic
     ```
 

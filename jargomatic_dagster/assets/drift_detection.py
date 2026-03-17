@@ -3,7 +3,7 @@ Detects new jargon by comparing candidate file to a known jargon list.
 """
 import pandas as pd
 from dagster import asset, AssetExecutionContext
-from dilbert_dagster.constants import KNOWN_JARGON_FILE, NEW_JARGON_CANDIDATES_FILE
+from jargomatic_dagster.constants import KNOWN_JARGON_FILE, NEW_JARGON_CANDIDATES_FILE
 
 
 @asset
